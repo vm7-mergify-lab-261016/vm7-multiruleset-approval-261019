@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: multi-ruleset-approval-count-discriminator
+    conditions:
+      - title = VM7 MULTI RULESET APPROVAL COUNT 261019
+      - -draft
+    actions:
+      merge:
+        method: merge
